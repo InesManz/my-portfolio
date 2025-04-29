@@ -5,7 +5,7 @@ export const projects = [
       image:"./public/img/01posicionamiento.jpg",        
       tech: ["HTML5", "CSS3"],
       github: "https://github.com/InesManz/entrega_posicionamientos.git",
-      link: "www.proyecto1.com",
+      link: "https://entrega-posicionamientos.vercel.app/",
     },
     {
       title: "Flexbox",
@@ -14,7 +14,7 @@ export const projects = [
         "./public/img/02flex-box.jpg",
       tech: ["HTML5", "CSS3"],
       github: "https://github.com/InesManz/Entrega-Flexbox-InesManzano.git",
-      link: "www.proyecto1.com",
+      link: "https://entrega-flexbox-ines-manzano.vercel.app/",
     },
     {
       title: "Pagian con Grid",
@@ -23,7 +23,7 @@ export const projects = [
         "./public/img/03grd.jpg",
         tech: ["HTML5", "CSS3"],
       github: "https://github.com/InesManz/Entrega-Grid-InesManzano.git",
-      link: "www.proyecto1.com",
+      link: "https://entrega-grid-ines-manzano.vercel.app/",
     },
     {
       title: "Mi primer proyecto",
@@ -32,7 +32,7 @@ export const projects = [
         "./public/img/04primerproyecto.jpg",
         tech: ["HTML5", "CSS3"],
       github: "https://github.com/InesManz/Entrega--Proyecto-1--InesManzano.git",
-      link: "www.proyecto1.com",
+      link: "https://entrega-proyecto-1-ines-manzano.vercel.app/",
     },
     {
       title: "Practica con DOM",
@@ -41,6 +41,6 @@ export const projects = [
         "/public/img/05practicadom.jpg",
       tech: ["HTML5", "CSS3", "JavaScript"],
       github: "https://github.com/InesManz/PracticaDom.git",
-      link: "www.proyecto1.com",
+      link: "https://practica-dom-five.vercel.app/",
     },
   ];
