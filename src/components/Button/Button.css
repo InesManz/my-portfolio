@@ -10,15 +10,37 @@
     gap: 0.5rem;
     border-radius: 0.3rem;
     transition: all 0.5s ease-in-out;
-    background-color: var(--bg-dark);
+    background-color: rgba(0, 0, 0, 0.411);
   }
   
   .my-btn > img {
     height: 20px;
     width: 20px;
     filter: invert(95%);
+    transition: all 0.3s ease-in-out;
   }
   
   .my-btn:hover {
-    background-color: var(--highlight);
+    background-color: rgba(119, 3, 3, 0.082); 
   }
+
+  light .my-btn {
+    background-color: var(--bg-light); 
+    border: 1px solid var(--primary-light); 
+    color: var(--primary-light);
+  }
+
+  .light .my-btn > img {
+    filter: none; 
+  }
+
+  body.light .my-btn {
+    background-color: white !important;
+    border: 1px solid black !important;
+    color: black !important;
+  }
+  
+  body.light .my-btn > img {
+    filter: none !important;
+  }
+  

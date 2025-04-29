@@ -12,7 +12,18 @@ nav {
       padding: 0 2rem;
     }
   }
+
+  .brand-name{
+    font-size: 4rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
   
+.brand-name :hover{
+  color: var(--highlight);
+}
+
   nav > ul {
     display: flex;
     gap: 3rem;

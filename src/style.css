@@ -30,14 +30,22 @@ html {
 }
 
 body {
-  background-color: var(--bg-dark);
+  background: linear-gradient(to right, #ff4e74 0%, #fe1300 50%, #fe3e67 100%);  
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
   color: var(--primary-dark);
   transition: all 0.5s ease-in-out;
 }
 
-.light {
-  background-color: var(--bg-light);
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.light {  
   color: var(--primary-light);
+  background: none;
 }
 
 main {

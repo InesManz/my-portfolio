@@ -1,0 +1,22 @@
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: var(--primary-dark);
+    text-align: justify;
+  }
+  
+  .gradient-title {
+    font-size: 2.5rem;
+    background: linear-gradient(135deg, #ff4e74, #ffc857);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  
+  body.light .about {
+    color: var(--primary-light); 
+  }

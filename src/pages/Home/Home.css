@@ -16,11 +16,20 @@
   
   .home > h1 {
     font-size: 5.5rem;
-    background: linear-gradient(to right, #e84589 0%, #ffb833 50%, #dd5789 100%);
+    background: whitesmoke;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .light h1 {
+    background: linear-gradient(to right, #ff4e74, #fe1300, #fe3e67);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+  
   
   .home > a {
     font-size: 1.5rem;
