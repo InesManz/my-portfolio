@@ -1,46 +1,66 @@
 export const projects = [
-    {
-      title: "Proyecto de posicionamiento",
-      description: "Este fue mi primer proyecto con css y html",
-      image:"/img/01posicionamiento.jpg",        
-      tech: ["HTML5", "CSS3"],
-      github: "https://github.com/InesManz/entrega_posicionamientos.git",
-      link: "https://entrega-posicionamientos.vercel.app/",
-    },
-    {
-      title: "Flexbox",
-      description: "Aprendiendo a usar Flexbox",
-      image:
-        "/img/02flex-box.jpg",
-      tech: ["HTML5", "CSS3"],
-      github: "https://github.com/InesManz/Entrega-Flexbox-InesManzano.git",
-      link: "https://entrega-flexbox-ines-manzano.vercel.app/",
-    },
-    {
-      title: "Pagian con Grid",
-      description: "Proyecto usando Grid",
-      image:
-        "/img/03grd.jpg",
-        tech: ["HTML5", "CSS3"],
-      github: "https://github.com/InesManz/Entrega-Grid-InesManzano.git",
-      link: "https://entrega-grid-ines-manzano.vercel.app/",
-    },
-    {
-      title: "Mi primer proyecto",
-      description: "En este proyecto uso tanto Grid como Flexbox.",
-      image:
-        "/img/04primerproyecto.jpg",
-        tech: ["HTML5", "CSS3"],
-      github: "https://github.com/InesManz/Entrega--Proyecto-1--InesManzano.git",
-      link: "https://entrega-proyecto-1-ines-manzano.vercel.app/",
-    },
-    {
-      title: "Practica con DOM",
-      description: "En esta practica empiezo a usar JavaScript",
-      image:
-        "/img/05practicadom.jpg",
-      tech: ["HTML5", "CSS3", "JavaScript"],
-      github: "https://github.com/InesManz/PracticaDom.git",
-      link: "https://practica-dom-five.vercel.app/",
-    },
-  ];
+  {
+    title: "Proyecto de posicionamiento",
+    description: "Este fue mi primer proyecto con CSS y HTML",
+    image: "/img/01posicionamiento.jpg",
+    tech: ["HTML5", "CSS3"],
+    github: "https://github.com/InesManz/entrega_posicionamientos.git",
+    link: "https://entrega-posicionamientos.vercel.app/",
+  },
+  {
+    title: "Flexbox",
+    description: "Aprendiendo a usar Flexbox",
+    image: "/img/02flex-box.jpg",
+    tech: ["HTML5", "CSS3"],
+    github: "https://github.com/InesManz/Entrega-Flexbox-InesManzano.git",
+    link: "https://entrega-flexbox-ines-manzano.vercel.app/",
+  },
+  {
+    title: "Página con Grid",
+    description: "Proyecto usando Grid",
+    image: "/img/03grd.jpg",
+    tech: ["HTML5", "CSS3"],
+    github: "https://github.com/InesManz/Entrega-Grid-InesManzano.git",
+    link: "https://entrega-grid-ines-manzano.vercel.app/",
+  },
+  {
+    title: "Mi primer proyecto",
+    description: "En este proyecto uso tanto Grid como Flexbox.",
+    image: "/img/04primerproyecto.jpg",
+    tech: ["HTML5", "CSS3"],
+    github: "https://github.com/InesManz/Entrega--Proyecto-1--InesManzano.git",
+    link: "https://entrega-proyecto-1-ines-manzano.vercel.app/",
+  },
+  {
+    title: "Práctica con DOM",
+    description: "En esta práctica empiezo a usar JavaScript",
+    image: "/img/05practicadom.jpg",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/InesManz/PracticaDom.git",
+    link: "https://practica-dom-five.vercel.app/",
+  },
+  {
+    title: "Proyecto web asíncrono",
+    description: "Web tipo Pinterest con asincronía",
+    image: "/img/PICTURY.jpg",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/InesManz/proyecto_web_asincrono.git",
+    link: "", // no desplegado aún
+  },
+  {
+    title: "Práctica cv_componentes",
+    description: "Aplicación de CV con componentes reutilizables",
+    image: "/img/cv_componentes.jpg",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/InesManz/cv_componentes.git",
+    link: "https://cv-componentes-9x17o3vg9-ines-manzanos-projects.vercel.app",
+  },
+  {
+    title: "Proyecto Sepulcro",
+    description: "Proyecto tienda Sepulcro",
+    image: "/img/SEPULCRO.jpg",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    github: "https://github.com/InesManz/Proyecto_5.git",
+    link: "https://proyecto-5-r8hh8wh8l-ines-manzanos-projects.vercel.app",
+  }
+];

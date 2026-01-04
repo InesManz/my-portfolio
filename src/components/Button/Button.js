@@ -1,8 +1,12 @@
 import "./Button.css";
 
-export const Button = (icon, text) => `
-<button class="my-btn">
-<img src=${icon} alt='${text} icon'/>
-<h4>${text}</h4>
+/**
+ * Botón reutilizable con icono Font Awesome.
+ * (DIW: iconos obligatorios, sin usar imágenes como iconos)
+ */
+export const Button = (iconClass, text) => `
+<button class="my-btn" type="button">
+  <i class="${iconClass}" aria-hidden="true"></i>
+  <span>${text}</span>
 </button>
 `;
